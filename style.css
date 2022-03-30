@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.run{
+    width: 27vw;
+    height: 64vh;
+    background-color: hsl(276, 60%, 67%);
+    padding-top: 18%;
+    border-bottom-right-radius: 90%;
+    border-bottom-width: 10%;
+}
+
+.walk{
+    width: 17vw;
+    height: 71vh;
+    background-color: whitesmoke;
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    border-radius: 30px;
+    padding: 10px;
+    box-shadow: 5px 10px 18px hsl(0, 1%, 74%);
+}
+
+.in{
+    width: 16vw;
+    height: 67vh;
+    background-color: antiquewhite;
+    border-radius: 27px;
+    position: absolute; 
+    padding-left: 12px;
+    padding-bottom: 24px;
+}
