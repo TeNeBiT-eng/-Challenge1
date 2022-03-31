@@ -5,40 +5,39 @@
 }
 
 .run{
-    width: 27vw;
-    height: 64vh;
+    width: 28vw;
+    height: 54vh;
     background-color: hsl(276, 60%, 67%);
     padding-top: 18%;
-    border-bottom-right-radius: 90%;
-    border-bottom-width: 10%;
+    border-bottom-right-radius: 80%;    
 }
 
 .walk{
-    width: 18vw;
+    width: 18.2vw;
     height: 73vh;
-    background-color: whitesmoke;
+    background-color: white;
     position: absolute;
     top: 10%;
     left: 20%;
     border-radius: 30px;
     padding: 10px;
-    box-shadow: 5px 10px 18px hsl(0, 1%, 74%);
+    box-shadow: 5px 10px 18px rgb(206, 205, 205);
 }
 
 .in{
-    width: 17vw;
+    width: 17.2vw;
     height: 69vh;
-    background-color: antiquewhite;
+    background-color: rgb(240, 233, 233);
     border-radius: 27px;
     position: absolute; 
     padding-left: 12px;
     padding-bottom: 24px;
 }
-
+ 
 .out{
     width: 10vw;
     height: 5vh;
-    background-color: whitesmoke;
+    background-color: white;
     position: absolute;
     left: 20%;
     top: -10px;
@@ -50,18 +49,15 @@
 .move{
     width: 18vw;
     height: 12vh;
-    background-color: hsl(276, 100%, 81%);
+    background-image: linear-gradient(rgb(173, 19, 219), rgb(236, 170, 236));
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    
     position: absolute;
     left: 1px;
     top: 1px;
     padding-left: -10px;
-    
-    
 }
 
 img{
@@ -107,9 +103,9 @@ img{
 }
 
 .holy{
-    width: 68%;
+    width: 76%;
     height: 9%;
-    background-color: aquamarine;
+    background-color: hsl(266, 7%, 81%);
     position: absolute;
     top: 20%;
     border-radius: 13px;
@@ -118,7 +114,7 @@ img{
 
 .word{
     font-size: 12px;
-    color: blueviolet;
+    color: hsl(276, 55%, 52%);
     position: absolute;
     top: 5px;
     left: 6px;
@@ -126,35 +122,267 @@ img{
 
 .fact{
     font-size: 12px;
-    color: blueviolet;
+    color: hsl(276, 55%, 52%);
     position: absolute;
     top: 22px;
     left: 8px;
 }
 
+.angel{
+    width: 76%;
+    height: 9%;
+    background-color: hsl(266, 7%, 81%);
+    position: absolute;
+    top: 31%;
+    border-radius: 13px;
+    border-bottom-left-radius: 6px;
+}
 
+.done{
+    font-size: 12px;
+    color: hsl(276, 55%, 52%);
+    position: absolute;
+    top: 5px;
+    left: 6px;
+}
 
+.well{
+    font-size: 12px;
+    color: hsl(276, 55%, 52%);
+    position: absolute;
+    top: 22px;
+    left: 6px;
+    padding-bottom: 5px;
+}
 
+.wow{
+    width: 76%;
+    height: 9%;
+    background-color: white;
+    position: absolute;
+    top: 52%;
+    left: 20%;
+    border-radius: 13px;
+    border-bottom-right-radius: 6px;
+}
 
+.few{
+    font-size: 12px;
+    color: hsl(271, 15%, 43%);
+    position: absolute;
+    top: 7px;
+    left: 6px;
+}
 
+.vex{
+    font-size: 12px;
+    color: hsl(271, 15%, 43%);
+    position: absolute;
+    top: 22px;
+    left: 6px;
+}
 
+.cap{
+    width: 45%;
+    height: 6%;
+    background-color: white;
+    position: absolute;
+    top: 63%;
+    left: 50%;
+    border-radius: 13px;
+    border-bottom-right-radius: 6px;
+}
 
+.flex{
+    font-size: 12px;
+    color: hsl(271, 15%, 43%);
+    position: absolute;
+    top: 6px;
+    left: 6px;
+}
 
+.nine{
+    width: 76%;
+    height: 11%;
+    background-color: hsl(266, 7%, 81%);
+    position: absolute;
+    top: 71%;
+    left: 5%;
+    border-radius: 13px;
+    border-bottom-left-radius: 6px;
+}
 
+.cole{
+    font-size: 11px;
+    color: hsl(276, 55%, 52%);
+    position: absolute;
+    top: 6px;
+    left: 6px;
+}
 
+.rest{
+    font-size: 11px;
+    color: hsl(276, 55%, 52%);
+    position: absolute;
+    top: 20px;
+    left: 6px;
+}
 
+.woman{
+    font-size: 11px;
+    color: hsl(276, 55%, 52%);
+    position: absolute;
+    top: 35px;
+    left: 6px;
+}
 
+.right{
+    width: 76%;
+    height: 7%;
+    background-image: linear-gradient(rgb(173, 19, 219), rgb(236, 170, 236));
+    position: absolute;
+    top: 84%;
+    border-radius: 13px;
+    border-bottom-left-radius: 6px
+}
 
+.row{
+    color: white;
+    font-size: 10px;
+    position: absolute;
+    top: 40%;
+    left: 20%;
+}
 
+.bola{
+    color: white;
+    font-weight: 600;
+    position: absolute;
+    left: 75%;
+    top: 9px;
+}
 
+.ayo{
+    width: 1vw;
+    height: 14px;
+    border-radius: 100%;
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    border: 2px solid white;
+    color: aliceblue;
+}
 
+.ghost{
+    position: absolute;
+    top: -1px;
+    left: 2px;
+}
 
+.me{
+    background-color:rgb(253, 251, 251) ;
+    position: absolute;
+    bottom: 8%;
+    top: 93%;
+    width: 14vw;
+    height: 4vh;
+    left: 24px;
+    bottom: 4%;
+    border-radius: 15px;
+}
 
+.dad{
+    font-size: small;
+    position: absolute;
+    top: 20%;
+    left: 7px;
+    color: rgba(128, 128, 128, 0.315)
+}
 
+.mom{
+    width: 1vw;
+    height: 14px;
+    border-radius: 100%;
+    position: absolute;
+    top: 3px;
+    left: 150px;
+    border: 2px solid black;
+    color: aliceblue;
+    background-color: rgb(22, 2, 22);
+}
 
+.yo{
+    position: absolute;
+    top: -1px;
+    left: 3px;
+    font-weight: 700;
+    font-size: small;
+    color: white;
+}
 
+.drop{
+    position: absolute;
+    left: 49%;
+    top: 38%;
+    font-size: 30px;
+    font-weight: 600;
+    color: rgb(53, 12, 92);
+}
 
+.help{
+    color: hsl(270, 7%, 64%);
+    position: absolute;
+    left: 49%;
+    top: 46%;
+    font-size: 19px;
+}
 
+.last{
+    width: 22vw;
+    height: 38vh;
+    background-color: hsla(276, 60%, 67%, 0.075);
+    padding-top: 18%; 
+    border-bottom-width: 10%;
+    position: absolute;
+    left: 78%;
+    top: 27%;
+    right: 90%;
+    border-top-left-radius: 50%; 
+}
+
+.free{
+    position: absolute;
+    top: 33%;
+    left: 65%;
+}
+
+.when{
+    border-radius: 10px;
+    width: 45px;
+}
+
+.kind{
+    position: absolute;
+    top: 33%;
+    left: 42%;
+}
+
+.very{
+    border-radius: 10px;
+    width: 45px;
+}
+
+.awe{
+    position: absolute;
+    top: 33%;
+    left: 19%;
+}
+
+.def{
+        border-radius: 10px;
+        width: 45px;
+}
+    
 
 
 
